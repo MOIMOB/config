@@ -14,15 +14,15 @@
     "prettier-config",
     "MOIMOB"
   ],
-  "main": "index.json",
+  "main": "index.js",
   "exports": {
-    ".": "./index.json",
-    "./angular": "./angular.json",
+    ".": "./index.js",
+    "./angular": "./angular.js",
     "./package.json": "./package.json"
   },
   "files": [
-    "index.json",
-    "angular.json"
+    "index.js",
+    "angular.js"
   ],
   "peerDependencies": {
     "prettier": ">=3"

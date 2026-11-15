@@ -20,6 +20,6 @@ jobs:
       - uses: jdx/mise-action@v2
         with:
           install_args: node
-      - run: npx --yes prettier@3 --config packages/prettier-config/index.json --check .
+      - run: npx --yes prettier@3 --config packages/prettier-config/index.js --check .
       - run: npm pack --dry-run
         working-directory: packages/prettier-config
