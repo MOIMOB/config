@@ -1,0 +1,33 @@
+{
+  "name": "@moimob/prettier-config",
+  "version": "1.0.0",
+  "description": "Shared Prettier config for MOIMOB apps and websites",
+  "license": "MIT",
+  "author": "Anton Gustafsson",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MOIMOB/config.git",
+    "directory": "packages/prettier-config"
+  },
+  "keywords": [
+    "prettier",
+    "prettier-config",
+    "MOIMOB"
+  ],
+  "main": "index.json",
+  "exports": {
+    ".": "./index.json",
+    "./angular": "./angular.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.json",
+    "angular.json"
+  ],
+  "peerDependencies": {
+    "prettier": ">=3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
