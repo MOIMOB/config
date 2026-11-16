@@ -2,9 +2,10 @@
 
 Shared tooling config for MOIMOB apps and websites.
 
-| Package                                               |                 |
-| ----------------------------------------------------- | --------------- |
-| [`@moimob/prettier-config`](packages/prettier-config) | Prettier config |
+| Package                                               |                                                                       |
+| ----------------------------------------------------- | --------------------------------------------------------------------- |
+| [`@moimob/prettier-config`](packages/prettier-config) | Prettier config                                                       |
+| [`@moimob/app-version`](packages/app-version)         | `moimob-version`: Android version + Play changelogs from package.json |
 
 `renovate/default.json` is the shared Renovate preset. Each app's `renovate.json`:
 
