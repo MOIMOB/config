@@ -1,0 +1,32 @@
+{
+  "name": "@moimob/app-version",
+  "version": "1.0.0",
+  "description": "Keeps a MOIMOB app's Android versionName/versionCode and Play changelogs in sync with package.json",
+  "license": "MIT",
+  "author": "Anton Gustafsson",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MOIMOB/config.git",
+    "directory": "packages/app-version"
+  },
+  "keywords": [
+    "version",
+    "android",
+    "versionCode",
+    "fastlane",
+    "MOIMOB"
+  ],
+  "type": "module",
+  "bin": {
+    "moimob-version": "bin.mjs"
+  },
+  "files": [
+    "bin.mjs"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

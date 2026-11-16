@@ -23,3 +23,7 @@ jobs:
       - run: npx --yes prettier@3 --config packages/prettier-config/index.js --check .
       - run: npm pack --dry-run
         working-directory: packages/prettier-config
+      - run: node test.mjs
+        working-directory: packages/app-version
+      - run: npm pack --dry-run
+        working-directory: packages/app-version
