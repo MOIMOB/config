@@ -1,6 +1,6 @@
 {
   "name": "@moimob/prettier-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shared Prettier config for MOIMOB apps and websites",
   "license": "MIT",
   "author": "Anton Gustafsson",

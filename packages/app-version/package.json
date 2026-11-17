@@ -1,6 +1,6 @@
 {
   "name": "@moimob/app-version",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Keeps a MOIMOB app's Android versionName/versionCode and Play changelogs in sync with package.json",
   "license": "MIT",
   "author": "Anton Gustafsson",
