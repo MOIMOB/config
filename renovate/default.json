@@ -24,6 +24,18 @@
       "matchPackageNames": ["@capacitor/**", "@capacitor-community/**", "@capawesome/**"],
       "matchUpdateTypes": ["major"],
       "groupName": "Capacitor major"
+    },
+    {
+      "description": "Angular framework, CLI, CDK/Material and angular-eslint share a major version and are upgraded together with ng update",
+      "matchPackageNames": [
+        "@angular/**",
+        "@angular-devkit/**",
+        "@schematics/angular",
+        "@angular-eslint/**",
+        "angular-eslint"
+      ],
+      "matchUpdateTypes": ["major"],
+      "groupName": "Angular major"
     }
   ]
 }
